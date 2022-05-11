@@ -1,0 +1,39 @@
+.note {
+    margin: 3rem 3rem;
+    border: 2px solid gray;
+    border-radius: 35px;
+    width: 85%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 2rem;
+    color:white;
+    background: black;
+
+    
+}
+
+.note h3{
+    font-family: Copperplate Gothic Light;
+    /* font-family: Century Gothic; */
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgb(235, 169, 72);
+}
+
+.note p{
+    font-family: Century Gothic;
+}
+
+.btn-note button{
+    
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(5, 39, 18);
+    color: white;
+    height: 40px;
+}
+
+.btn-note button:hover {
+    background-color: rgb(57, 133, 107); 
+}

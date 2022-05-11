@@ -1,0 +1,30 @@
+.ui_top {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.ui_top h1{
+    font-family:Century Gothic;
+    font-size: 120px;
+    color:rgb(253, 252, 252);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    /* text-shadow: 2px 2px 4px rgb(184, 192, 189); */
+
+    position: absolute;
+  bottom: 8px;
+  right: 16px;
+    
+}
+
+.stock_track_main img {
+    width:100%;
+    height: 600px;
+    margin-top: 0px;
+    object-fit:cover;
+    object-position: center;
+}
